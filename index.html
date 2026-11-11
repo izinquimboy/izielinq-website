@@ -1,430 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Iziel Inquimboy</title>
-<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
-<link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Iziel Inquimboy</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&family=Libre+Caslon+Display&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+  <nav aria-label="Main navigation">
+    <a class="nav-index" href="#home"><span>I. Portfolio</span><span></span><span></span><span></span></a>
+    <a class="nav-id" href="#home">Iziel Inquimboy</a>
+    <div class="nav-links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div>
+  </nav>
 
-<nav>
-  <div class="nav-mark">
-    <span class="nav-dot"></span>
-    <span class="nav-id">Iziel Inquimboy</span>
-  </div>
-  <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <figure class="hero-figure"><img src="images/portrait-upright.jpg" alt="Iziel Inquimboy outdoors in Raleigh"/><figcaption>Portrait of Iziel Inquimboy, Raleigh, North Carolina.</figcaption></figure>
+      <div class="hero-intro">
+        <h1 id="hero-title">Software built with <em>people in mind.</em></h1>
+        <aside><sup>1</sup> Computer Science at NC State University. Based in Raleigh, North Carolina.</aside>
+      </div>
+      <div class="hero-afterword"><p>I build software that connects systems and makes useful work easier for people.</p></div>
+    </section>
 
-<!-- HERO -->
-<div class="hero">
-  <div class="hero-left">
-    <div class="hero-top-row">
-<!--      <span class="hero-label"><span class="pulse"></span>Open to opportunities</span>-->
-      <span class="hero-index">Portfolio</span>
+    <section class="editorial-gallery" aria-label="A visual introduction">
+      <figure class="gallery-side"><img src="images/japan-street.jpg" alt="A street in Japan" loading="lazy"/><figcaption>FIG. 1 &nbsp; Somewhere along the way.</figcaption></figure>
+      <figure class="gallery-main"><img src="images/porch.jpg" alt="A quiet porch framed by trees" loading="lazy"/><figcaption>Finding details in the everyday.</figcaption></figure>
+      <aside class="gallery-note"><span>FIG. 2</span> Curiosity outside of work shapes how I approach it.</aside>
+    </section>
+    <div class="editorial-strip" aria-label="A collection of details and inspirations">
+      <img src="images/sculpture.jpg" alt="Sculpture beneath a cloudy sky" loading="lazy"/>
+      <img src="images/nyc-skyline.jpg" alt="New York skyline at dusk" loading="lazy"/>
+      <img src="images/tilework.jpg" alt="Framed tilework and patterns" loading="lazy"/>
+      <div class="strip-icon"><img src="images/coffee-icon.svg" alt="Coffee illustration" loading="lazy"/></div>
     </div>
-    <div class="hero-headline">
-      <span>Iziel</span>
-      <span>Inquimboy</span>
-    </div>
-    <div class="hero-bottom-row">
-      <span class="hero-role">Engineer &amp; Problem Solver</span>
-      <div class="hero-ctas">
-        <a href="#projects" class="cta-a fill">View work</a>
-        <a href="#contact" class="cta-a ghost">Contact</a>
-      </div>
-    </div>
-  </div>
-  <div class="hero-right">
-    <div class="hero-photo-wrap">
-      <div class="photo-frame">
-        <!-- Add your headshot by replacing the src below with your image path. -->
-        <img class="photo-headshot" src="images/headshot.JPG" alt="Iziel Inquimboy headshot"/>
-        <span class="photo-initials">II</span>
-      </div>
-    </div>
-    <div class="hero-info">
-      <div class="info-row"><span class="info-key">Degree</span><span class="info-val">B.S. Computer Science</span></div>
-      <div class="info-row"><span class="info-key">School</span><span class="info-val">NC State University</span></div>
-      <div class="info-row"><span class="info-key">Location</span><span class="info-val">Raleigh, NC</span></div>
-      <div class="info-row"><span class="info-key">Current role</span><span class="info-val highlight">Peter Millar · Summer 2026</span></div>
-    </div>
-  </div>
-</div>
 
-<!-- ABOUT -->
-<div class="sec" id="about">
-  <div class="sec-head fade">
-    <div class="sec-right">
-      <span class="sec-kicker">Background</span>
-      <h2 class="sec-title">About <em>Me</em></h2>
-    </div>
-  </div>
-  <div class="about-body fade2">
-    <div class="about-prose">
-      <p>I'm a Computer Science student at NC State University with a strong interest in building software that solves real problems. My background in customer-facing roles has shaped my approach to engineering — I prioritize understanding the people and systems involved before writing a single line of code.</p>
-      <p>Whether I'm integrating APIs, designing data models, or working through complex edge cases, I bring the same commitment: careful thinking, personal ownership, and a focus on delivering something that works.</p>
-      <p>Outside of software, I volunteer with YoungLife, mentoring middle and high school students. It keeps me grounded and reinforces the people-first values I bring to my technical work.</p>
-    </div>
-    <div class="trait-stack">
-      <div class="trait-row">
-        <div class="tr-mark">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-        </div>
-        <div class="tr-text"><h4>Analytical problem solver</h4><p>I approach challenges methodically, identifying root causes and working through them with precision.</p></div>
+    <section class="editorial-section" id="about" aria-labelledby="about-title">
+      <div class="section-opening">
+        <span class="section-index">Background</span>
+        <h2 id="about-title">About <em>me</em></h2>
+        <aside>Computer Science student &nbsp; / &nbsp; NC State University</aside>
       </div>
-      <div class="trait-row">
-        <div class="tr-mark">
-          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-        </div>
-        <div class="tr-text"><h4>People-first mindset</h4><p>Good engineering starts with understanding who you're building for.</p></div>
-      </div>
-      <div class="trait-row">
-        <div class="tr-mark">
-          <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-        </div>
-        <div class="tr-text"><h4>Execution-focused</h4><p>I'm driven by tangible results — delivering functional, well-considered solutions that hold up in practice.</p></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- EXPERIENCE -->
-<div class="sec" id="experience">
-  <div class="sec-head fade">
-    <div class="sec-right">
-      <span class="sec-kicker">Career</span>
-      <h2 class="sec-title">Professional <em>Experience</em></h2>
-    </div>
-  </div>
-  <div class="exp-list fade2">
-    <details class="exp-card pinned exp-detail" open>
-      <summary class="exp-summary">
-        <span class="exp-num2">01</span>
-        <div class="exp-main">
-          <div class="exp-co">Peter Millar</div>
-          <div class="exp-ro">Integration Engineer Intern</div>
-        </div>
-        <div class="exp-meta2">
-          <span class="exp-period2">Summer 2026</span>
-          <span class="exp-pill2 pill-up">Current</span>
-          <span class="exp-toggle" aria-hidden="true"></span>
-        </div>
-      </summary>
-      <div class="exp-dropdown">
-        <ul class="exp-points">
-          <li>Use Microsoft Azure, Logic Apps, and ESB workflows to connect internal business systems.</li>
-          <li>Create and use APIs that help different applications share data reliably.</li>
-          <li>Work with business datasets and prepare them for use across systems, services, and reporting workflows.</li>
-        </ul>
-        <div class="exp-tools">
-          <span>Microsoft Azure</span>
-          <span>Logic Apps</span>
-          <span>ESB</span>
-          <span>APIs</span>
-          <span>Data Integration</span>
+      <div class="about-story">
+        <figure class="about-figure"><div class="about-figure-image"><img src="images/coffee-icon.svg" alt="Illustration of a coffee dripper and carafe" loading="lazy"/></div><figcaption>A good place to start: a conversation.</figcaption></figure>
+        <div class="about-copy">
+          <p>I'm a Computer Science student at NC State University focused on practical software and systems that work well together.</p>
+          <p>Customer-facing work taught me to listen first. I bring that mindset to APIs, data workflows, and the details that make software reliable.</p>
         </div>
       </div>
-    </details>
-    <details class="exp-card exp-detail">
-      <summary class="exp-summary">
-        <span class="exp-num2">02</span>
-        <div class="exp-main">
-          <div class="exp-co">Apex Outfitter &amp; Board Co.</div>
-          <div class="exp-ro">Sales Associate</div>
-        </div>
-        <div class="exp-meta2">
-          <span class="exp-period2">Apr 2025 – Present</span>
-          <span class="exp-pill2 pill-now">Current</span>
-          <span class="exp-toggle" aria-hidden="true"></span>
-        </div>
-      </summary>
-      <div class="exp-dropdown">
-        <ul class="exp-points">
-          <li>Assist customers with product selection, sizing, and purchases in a fast-paced retail environment.</li>
-          <li>Support day-to-day store operations, including merchandising, inventory upkeep, and point-of-sale tasks.</li>
-        </ul>
+      <div class="about-notes">
+        <div><span>Education</span><p>B.S. Computer Science<br/>NC State University</p></div>
+        <div><span>Location</span><p>Raleigh, North Carolina</p></div>
       </div>
-    </details>
-    <details class="exp-card exp-detail">
-      <summary class="exp-summary">
-        <span class="exp-num2">03</span>
-        <div class="exp-main">
-          <div class="exp-co">YoungLife</div>
-          <div class="exp-ro">Volunteer Leader</div>
-        </div>
-        <div class="exp-meta2">
-          <span class="exp-period2">Aug 2022 – Present</span>
-          <span class="exp-pill2 pill-lead">Leadership</span>
-          <span class="exp-toggle" aria-hidden="true"></span>
-        </div>
-      </summary>
-      <div class="exp-dropdown">
-        <ul class="exp-points">
-          <li>Mentor middle and high school students through weekly programming, small groups, and one-on-one support.</li>
-          <li>Coordinate with other leaders to plan events, build relationships, and create a welcoming community.</li>
-        </ul>
-      </div>
-    </details>
-  </div>
-</div>
+    </section>
 
-<!-- PROJECTS -->
-<div class="sec" id="projects">
-  <div class="sec-head fade">
-    <div class="sec-right">
-      <span class="sec-kicker">Work</span>
-      <h2 class="sec-title">Selected <em>Projects</em></h2>
-    </div>
-  </div>
-  <div class="proj-grid fade2">
-    <a href="https://github.com/izinquimboy/spotistats.git" class="proj-card main" target="_blank" rel="noopener noreferrer">
-      <div>
-        <div class="proj-tag2">Featured project</div>
-        <div class="proj-name2">Spotitstats</div>
-        <div class="proj-desc3">Full-stack Spotify analytics dashboard with OAuth2 auth, real-time listening metrics, Chart.js visualizations, and Docker containerization.</div>
-        <div class="proj-tech"><span class="ptech">Spring Boot</span><span class="ptech">OAuth2</span><span class="ptech">PostgreSQL</span><span class="ptech">Docker</span><span class="ptech">Chart.js</span></div>
-        <span class="proj-link2">View on GitHub ↗</span>
+    <section class="editorial-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-opening">
+        <span class="section-index">Career</span>
+        <h2 id="experience-title">Experience</h2>
+        <aside>Systems integration &nbsp; / &nbsp; People-facing work</aside>
       </div>
-      <div class="proj-visual2">
-        <div class="bars">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
+      <div class="experience-entries">
+        <article class="experience-entry experience-featured">
+          <span class="entry-number">Current role</span>
+          <div class="entry-content"><h3>Peter Millar</h3><p class="entry-role">Integration Engineer Intern</p><p class="entry-description">I use Microsoft Azure, Logic Apps, and ESB workflows to connect business systems. My work with APIs and datasets helps information move reliably between applications and reporting tools.</p><p class="entry-caption">Systems integration &nbsp; · &nbsp; APIs &nbsp; · &nbsp; Data workflows</p></div>
+          <span class="entry-date">Summer 2026</span>
+        </article>
+        <article class="experience-entry">
+          <span class="entry-number">Additional experience</span>
+          <div class="entry-content"><h3>Apex Outfitter &amp; Board Co.</h3><p class="entry-role">Sales Associate</p><p class="entry-description">I help customers find the right products and support daily store operations. The role has strengthened my communication and attention to detail.</p></div>
+          <span class="entry-date">Apr 2025—Present</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="editorial-section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-opening">
+        <span class="section-index">Get in touch</span>
+        <h2 id="contact-title">Contact</h2>
+        <aside>Open to new opportunities.</aside>
+      </div>
+      <div class="contact-wrap">
+        <p>Have an opportunity or a question? I'd love to hear from you.</p>
+        <div class="contact-links">
+          <a href="mailto:iinquimboy0@gmail.com"><span>Email</span><strong>iinquimboy0@gmail.com</strong><span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/iziel-inquimboy" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>iziel-inquimboy</strong><span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/izinquimboy" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>izinquimboy</strong><span aria-hidden="true">↗</span></a>
         </div>
       </div>
-    </a>
-    <a href="https://github.com/izinquimboy/todo-spring-boot.git" class="proj-card" target="_blank" rel="noopener noreferrer">
-      <div>
-        <div class="proj-tag2">Full-Stack</div>
-        <div class="proj-name2">To-Do List App</div>
-        <div class="proj-desc3">Task manager with Spring Boot, MySQL, and a responsive Thymeleaf + Bootstrap UI. Full CRUD via Spring Data JPA.</div>
-        <div class="proj-tech"><span class="ptech">Spring Boot</span><span class="ptech">MySQL</span><span class="ptech">Thymeleaf</span><span class="ptech">Bootstrap</span></div>
-      </div>
-      <span class="proj-link2">View on GitHub ↗</span>
-    </a>
-    <a href="https://github.com/izinquimboy/javaWeatherForecast.git" class="proj-card" target="_blank" rel="noopener noreferrer">
-      <div>
-        <div class="proj-tag2">Java App</div>
-        <div class="proj-name2">Weather Forecast App</div>
-        <div class="proj-desc3">Java desktop app pulling live JSON data from a weather REST API with an intuitive Swing GUI and OOP architecture.</div>
-        <div class="proj-tech"><span class="ptech">Java</span><span class="ptech">Swing</span><span class="ptech">REST API</span><span class="ptech">JSON</span></div>
-      </div>
-      <span class="proj-link2">View on GitHub ↗</span>
-    </a>
-  </div>
-</div>
+    </section>
+  </main>
 
-<!-- SKILLS -->
-<div class="sec" id="skills">
-  <div class="sec-head fade">
-    <div class="sec-right">
-      <span class="sec-kicker">Toolkit</span>
-      <h2 class="sec-title">Technical <em>Skills</em></h2>
-    </div>
-  </div>
-  <div class="skills-wrap fade2">
-    <div class="sk-col">
-      <div class="sk-label2">Languages</div>
-      <div class="sk-item"><i class="devicon-java-plain"></i>Java</div>
-      <div class="sk-item"><i class="devicon-python-plain"></i>Python</div>
-      <div class="sk-item"><i class="devicon-javascript-plain"></i>JavaScript</div>
-      <div class="sk-item"><i class="devicon-c-plain"></i>C</div>
-      <div class="sk-item"><i class="devicon-html5-plain"></i>HTML / CSS</div>
-    </div>
-    <div class="sk-col">
-      <div class="sk-label2">Frameworks</div>
-      <div class="sk-item"><i class="devicon-spring-plain"></i>Spring Boot</div>
-      <div class="sk-item"><i class="devicon-spring-plain"></i>Spring Security</div>
-      <div class="sk-item"><i class="devicon-spring-plain"></i>Spring Data JPA</div>
-      <div class="sk-item"><span class="sk-icon">T</span>Thymeleaf</div>
-      <div class="sk-item"><i class="devicon-bootstrap-plain"></i>Bootstrap</div>
-    </div>
-    <div class="sk-col">
-      <div class="sk-label2">Tools & Platforms</div>
-      <div class="sk-item"><i class="devicon-azure-plain"></i>Microsoft Azure</div>
-      <div class="sk-item"><span class="sk-icon">LA</span>Logic Apps / ESB</div>
-      <div class="sk-item"><span class="sk-icon">API</span>API &amp; Data Integration</div>
-      <div class="sk-item"><i class="devicon-github-original"></i>Git / GitHub</div>
-      <div class="sk-item"><i class="devicon-docker-plain"></i>Docker</div>
-    </div>
-  </div>
-</div>
-
-<!-- CONTACT -->
-<div class="sec" id="contact">
-  <div class="sec-head fade">
-    <div class="sec-right">
-      <span class="sec-kicker">Reach out</span>
-      <h2 class="sec-title">Get in <em>Touch</em></h2>
-    </div>
-  </div>
-  <div class="contact-wrap fade2">
-    <div class="contact-left">
-      <div class="contact-big2">Open to new <em>opportunities.</em></div>
-      <p class="contact-note">Whether you have a role, a project, or a question in mind — I'd welcome the conversation. Feel free to reach out through any of the channels on the right.</p>
-    </div>
-    <div class="c-items">
-      <a href="mailto:irinquim@ncsu.edu" class="c-item">
-        <div class="c-lft"><span class="c-kind">Email</span><span class="c-val">irinquim@ncsu.edu</span></div>
-        <span class="c-ico" aria-hidden="true"></span>
-      </a>
-      <a href="https://www.linkedin.com/in/iziel-inquimboy" class="c-item" target="_blank" rel="noopener noreferrer">
-        <div class="c-lft"><span class="c-kind">LinkedIn</span><span class="c-val">iziel-inquimboy</span></div>
-        <span class="c-ico" aria-hidden="true"></span>
-      </a>
-      <a href="https://github.com/izinquimboy" class="c-item" target="_blank" rel="noopener noreferrer">
-        <div class="c-lft"><span class="c-kind">GitHub</span><span class="c-val">izinquimboy</span></div>
-        <span class="c-ico" aria-hidden="true"></span>
-      </a>
-    </div>
-  </div>
-</div>
-
-<footer>
-  <div class="motion-strip" aria-hidden="true">
-    <div class="motion-track">
-      <span>Iziel Inquimboy</span>
-      <span>Engineer</span>
-      <span>Builder</span>
-      <span>Raleigh</span>
-      <span>NC State CS</span>
-      <span>Iziel Inquimboy</span>
-      <span>Engineer</span>
-      <span>Builder</span>
-      <span>Raleigh</span>
-      <span>NC State CS</span>
-    </div>
-  </div>
-  <div class="footer-inner">
-    <span>Iziel Inquimboy</span>
-    <span class="footer-dot"></span>
-    <span>Raleigh, NC · NC State CS '27</span>
-  </div>
-</footer>
-
-<script>
-
-const expCards=[...document.querySelectorAll('.exp-detail')];
-
-function setPanelState(card,open,animate=true){
-  const panel=card.querySelector('.exp-dropdown');
-  if(!panel)return;
-
-  if(open){
-    card.open=true;
-    panel.style.maxHeight=animate?'0px':`${panel.scrollHeight}px`;
-    panel.style.opacity=animate?'0':'1';
-    panel.style.transform=animate?'translateY(-8px)':'translateY(0)';
-    if(animate){
-      requestAnimationFrame(()=>{
-        panel.style.maxHeight=`${panel.scrollHeight}px`;
-        panel.style.opacity='1';
-        panel.style.transform='translateY(0)';
-      });
-    }
-    return;
-  }
-
-  panel.style.maxHeight=`${panel.scrollHeight}px`;
-  panel.style.opacity='1';
-  panel.style.transform='translateY(0)';
-  requestAnimationFrame(()=>{
-    panel.style.maxHeight='0px';
-    panel.style.opacity='0';
-    panel.style.transform='translateY(-8px)';
-  });
-  window.setTimeout(()=>{card.open=false;},animate?380:0);
-}
-
-expCards.forEach(card=>{
-  setPanelState(card,card.open,false);
-  card.querySelector('summary').addEventListener('click',event=>{
-    event.preventDefault();
-    setPanelState(card,!card.open);
-  });
-});
-
-const contactItems=document.querySelector('.c-items');
-const contactSection=document.querySelector('#contact');
-const motionStrip=document.querySelector('.motion-strip');
-const nav=document.querySelector('nav');
-const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
-let stripMotion={start:0,end:1,distance:0};
-let stripMotionFrame=null;
-
-function clamp(value,min,max){
-  return Math.min(Math.max(value,min),max);
-}
-
-function measureStripMotion(){
-  if(!contactItems||!contactSection||!motionStrip)return;
-
-  const previousTransform=motionStrip.style.transform;
-  motionStrip.style.transform='none';
-
-  const scrollY=window.scrollY||window.pageYOffset;
-  const navHeight=nav?nav.getBoundingClientRect().height:0;
-  const contactTop=contactSection.getBoundingClientRect().top+scrollY;
-  const cardRect=contactItems.getBoundingClientRect();
-  const stripRect=motionStrip.getBoundingClientRect();
-  const startTop=cardRect.bottom+scrollY+12;
-  const finalTop=stripRect.top+scrollY;
-  const maxScroll=Math.max(0,document.documentElement.scrollHeight-window.innerHeight);
-  const distance=Math.max(0,finalTop-startTop);
-
-  motionStrip.style.transform=previousTransform;
-
-  stripMotion={
-    start:Math.min(contactTop-navHeight,Math.max(0,maxScroll-window.innerHeight*0.65+navHeight)),
-    end:Math.max(1,maxScroll),
-    distance
-  };
-
-  updateStripMotion();
-}
-
-function updateStripMotion(){
-  stripMotionFrame=null;
-
-  if(!motionStrip||reducedMotion.matches||stripMotion.distance<=0){
-    if(motionStrip)motionStrip.style.transform='';
-    return;
-  }
-
-  const {start,end,distance}=stripMotion;
-  const progress=clamp(((window.scrollY||window.pageYOffset)-start)/(end-start),0,1);
-  motionStrip.style.transform=`translate3d(0,${-(1-progress)*distance}px,0)`;
-}
-
-function requestStripMotionUpdate(){
-  if(stripMotionFrame!==null)return;
-  stripMotionFrame=window.requestAnimationFrame(updateStripMotion);
-}
-
-if(contactItems&&contactSection&&motionStrip){
-  measureStripMotion();
-  window.addEventListener('scroll',requestStripMotionUpdate,{passive:true});
-  window.addEventListener('resize',measureStripMotion);
-  if(reducedMotion.addEventListener){
-    reducedMotion.addEventListener('change',measureStripMotion);
-  }else{
-    reducedMotion.addListener(measureStripMotion);
-  }
-  if(document.fonts)document.fonts.ready.then(measureStripMotion);
-}
-</script>
+  <footer><span>Iziel Inquimboy</span><span>Raleigh, NC · NC State CS '27</span><a href="#home">Back to top ↑</a></footer>
 </body>
 </html>
