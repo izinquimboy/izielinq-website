@@ -1,100 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Iziel Inquimboy</title>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&family=Libre+Caslon+Display&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iziel Inquimboy — Software &amp; systems</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav aria-label="Main navigation">
-    <a class="nav-index" href="#home"><span>I. Portfolio</span><span></span><span></span><span></span></a>
-    <a class="nav-id" href="#home">Iziel Inquimboy</a>
-    <div class="nav-links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div>
-  </nav>
-
-  <main id="home">
-    <section class="hero" aria-labelledby="hero-title">
-      <figure class="hero-figure"><img src="images/portrait-upright.jpg" alt="Iziel Inquimboy outdoors in Raleigh"/><figcaption>Portrait of Iziel Inquimboy, Raleigh, North Carolina.</figcaption></figure>
-      <div class="hero-intro">
-        <h1 id="hero-title">Software built with <em>people in mind.</em></h1>
-        <aside><sup>1</sup> Computer Science at NC State University. Based in Raleigh, North Carolina.</aside>
-      </div>
-      <div class="hero-afterword"><p>I build software that connects systems and makes useful work easier for people.</p></div>
-    </section>
-
-    <section class="editorial-gallery" aria-label="A visual introduction">
-      <figure class="gallery-side"><img src="images/japan-street.jpg" alt="A street in Japan" loading="lazy"/><figcaption>FIG. 1 &nbsp; Somewhere along the way.</figcaption></figure>
-      <figure class="gallery-main"><img src="images/porch.jpg" alt="A quiet porch framed by trees" loading="lazy"/><figcaption>Finding details in the everyday.</figcaption></figure>
-      <aside class="gallery-note"><span>FIG. 2</span> Curiosity outside of work shapes how I approach it.</aside>
-    </section>
-    <div class="editorial-strip" aria-label="A collection of details and inspirations">
-      <img src="images/sculpture.jpg" alt="Sculpture beneath a cloudy sky" loading="lazy"/>
-      <img src="images/nyc-skyline.jpg" alt="New York skyline at dusk" loading="lazy"/>
-      <img src="images/tilework.jpg" alt="Framed tilework and patterns" loading="lazy"/>
-      <div class="strip-icon"><img src="images/coffee-icon.svg" alt="Coffee illustration" loading="lazy"/></div>
-    </div>
-
-    <section class="editorial-section" id="about" aria-labelledby="about-title">
-      <div class="section-opening">
-        <span class="section-index">Background</span>
-        <h2 id="about-title">About <em>me</em></h2>
-        <aside>Computer Science student &nbsp; / &nbsp; NC State University</aside>
-      </div>
-      <div class="about-story">
-        <figure class="about-figure"><div class="about-figure-image"><img src="images/coffee-icon.svg" alt="Illustration of a coffee dripper and carafe" loading="lazy"/></div><figcaption>A good place to start: a conversation.</figcaption></figure>
-        <div class="about-copy">
-          <p>I'm a Computer Science student at NC State University focused on practical software and systems that work well together.</p>
-          <p>Customer-facing work taught me to listen first. I bring that mindset to APIs, data workflows, and the details that make software reliable.</p>
+  <div class="site-layout">
+    <aside class="sidebar">
+      <nav aria-label="Main navigation">
+        <a class="site-name" href="index.html">Iziel Inquimboy<span>Software &amp; systems</span></a>
+        <div class="view-switch" aria-label="Portfolio views">
+          <a class="selected" aria-current="page" href="index.html">In full</a><a href="brief.html">In brief</a>
         </div>
-      </div>
-      <div class="about-notes">
-        <div><span>Education</span><p>B.S. Computer Science<br/>NC State University</p></div>
-        <div><span>Location</span><p>Raleigh, North Carolina</p></div>
-      </div>
-    </section>
-
-    <section class="editorial-section" id="experience" aria-labelledby="experience-title">
-      <div class="section-opening">
-        <span class="section-index">Career</span>
-        <h2 id="experience-title">Experience</h2>
-        <aside>Systems integration &nbsp; / &nbsp; People-facing work</aside>
-      </div>
-      <div class="experience-entries">
-        <article class="experience-entry experience-featured">
-          <span class="entry-number">Current role</span>
-          <div class="entry-content"><h3>Peter Millar</h3><p class="entry-role">Integration Engineer Intern</p><p class="entry-description">I use Microsoft Azure, Logic Apps, and ESB workflows to connect business systems. My work with APIs and datasets helps information move reliably between applications and reporting tools.</p><p class="entry-caption">Systems integration &nbsp; · &nbsp; APIs &nbsp; · &nbsp; Data workflows</p></div>
-          <span class="entry-date">Summer 2026</span>
-        </article>
-        <article class="experience-entry">
-          <span class="entry-number">Additional experience</span>
-          <div class="entry-content"><h3>Apex Outfitter &amp; Board Co.</h3><p class="entry-role">Sales Associate</p><p class="entry-description">I help customers find the right products and support daily store operations. The role has strengthened my communication and attention to detail.</p></div>
-          <span class="entry-date">Apr 2025—Present</span>
-        </article>
-      </div>
-    </section>
-
-    <section class="editorial-section contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="section-opening">
-        <span class="section-index">Get in touch</span>
-        <h2 id="contact-title">Contact</h2>
-        <aside>Open to new opportunities.</aside>
-      </div>
-      <div class="contact-wrap">
-        <p>Have an opportunity or a question? I'd love to hear from you.</p>
-        <div class="contact-links">
-          <a href="mailto:iinquimboy0@gmail.com"><span>Email</span><strong>iinquimboy0@gmail.com</strong><span aria-hidden="true">↗</span></a>
-          <a href="https://www.linkedin.com/in/iziel-inquimboy" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>iziel-inquimboy</strong><span aria-hidden="true">↗</span></a>
-          <a href="https://github.com/izinquimboy" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>izinquimboy</strong><span aria-hidden="true">↗</span></a>
+        <div class="page-links">
+          <a href="about.html">About</a>
+          <a href="cv.html">CV</a>
+          <a href="contact.html">Contact</a>
         </div>
-      </div>
-    </section>
-  </main>
+      </nav>
+    </aside>
 
-  <footer><span>Iziel Inquimboy</span><span>Raleigh, NC · NC State CS '27</span><a href="#home">Back to top ↑</a></footer>
+    <main class="main-content home-page">
+      <p class="opening-copy">Hi. I’m Iziel, a computer science student at NC State. My work moves between software <span aria-hidden="true">✳</span>, systems <span aria-hidden="true">✦</span>, and the people who use them. I’m interested in the small details that make complicated things feel simple.</p>
+
+      <header class="feature-header">
+        <div class="symbols" aria-hidden="true">≡ ✳ ▲ ✿</div>
+        <h1>Building with moving parts</h1>
+        <p class="feature-summary">A look at the work I’ve done connecting applications, working with data, and helping people find what they need.</p>
+        <div class="feature-meta"><span>Software &amp; systems</span><span>Raleigh, North Carolina</span></div>
+      </header>
+
+      <section class="story-section" aria-labelledby="recent-work">
+        <h2 id="recent-work">Making systems talk to each other</h2>
+        <p class="story-copy">At Peter Millar, I work with Microsoft Azure, Logic Apps, APIs, and ESB workflows to move information between business applications and reporting tools. The goal is straightforward: make the right data available where it’s needed, reliably.</p>
+        <a class="text-link" href="cv.html">Read about my experience</a>
+      </section>
+
+      <section class="story-section" aria-labelledby="people-first">
+        <h2 id="people-first">The people side of the work</h2>
+        <p class="story-copy">Working directly with customers at Apex Outfitter &amp; Board Co. has taught me to ask better questions and listen carefully. I bring that same approach to building software: understand the person and the problem before reaching for a solution.</p>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
