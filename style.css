@@ -20,7 +20,8 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
 .main-content{width:min(100%,1368px);padding:34px 10px 0 10px}
 .opening-copy{max-width:680px;margin:0;font:400 21px/1.78 var(--serif);letter-spacing:-.04em}
 .feature-header{margin-top:285px;min-height:682px;padding-top:16px;border-top:1px solid var(--line)}
-.symbols{font-family:var(--sans);font-size:43px;line-height:1.2;letter-spacing:1px;font-weight:600}
+.symbols,.opening-copy [aria-hidden="true"]{font-family:Arial,Helvetica,sans-serif}
+.symbols{font-size:43px;line-height:1.2;letter-spacing:1px;font-weight:600}
 h1,h2,h3,p{overflow-wrap:break-word}
 h1,h2{font-family:var(--serif);font-weight:400;letter-spacing:-.075em}
 .feature-header h1{margin:20px 0 27px;font-size:clamp(58px,5vw,92px);line-height:1.16;white-space:nowrap}
